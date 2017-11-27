@@ -118,8 +118,8 @@
 	</div>
 
 	<script>
-
 	const panels =document.querySelectorAll('.panel')
+
 	function toggleOpen(){
 		this.classList.toggle('open');
 	}
@@ -130,13 +130,10 @@
 			}
 	}
 
-
 	panels.forEach(panel => panel.addEventListener('click',toggleOpen));//loopovereachpanel listen for a click and run toggleOpen on each when clicked.
 	panels.forEach(panel => panel.addEventListener('transitionend',toggleActive));//loopovereachpanel listen for a click and run toggleOpen on each when clicked.
 
 	</script>
-
-
 
 </body>
 </html>
